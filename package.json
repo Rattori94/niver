@@ -2,21 +2,6 @@
   "name": "aniversario",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Rattori94/niver#readme",
-  "bugs": {
-    "url": "https://github.com/Rattori94/niver/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rattori94/niver.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "base-x": "^3.0.11",
@@ -76,5 +61,22 @@
     "utility-types": "^3.11.0",
     "weak-lru-cache": "^1.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rattori94/niver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rattori94/niver/issues"
+  },
+  "homepage": "https://github.com/Rattori94/niver#readme"
 }
