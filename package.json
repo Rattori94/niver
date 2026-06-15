@@ -2,18 +2,16 @@
   "name": "aniversario",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Rattori94/ebac_tech_talks#readme",
+  "homepage": "https://github.com/Rattori94/niver#readme",
   "bugs": {
-    "url": "https://github.com/Rattori94/ebac_tech_talks/issues"
+    "url": "https://github.com/Rattori94/niver/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rattori94/ebac_tech_talks.git"
+    "url": "git+https://github.com/Rattori94/niver.git"
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "build": "parcel build src/index.html",
