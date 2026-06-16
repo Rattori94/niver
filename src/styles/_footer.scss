@@ -1,0 +1,20 @@
+@use 'variables';
+
+.footer {
+    padding: 16px 0;
+    background-color: variables.$purple;
+    text-align: center;
+
+    &__logo {
+        max-width: 80px;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    &__text {
+        color: variables.$textColor;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0px;
+    }
+}
